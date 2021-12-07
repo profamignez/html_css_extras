@@ -1,0 +1,117 @@
+body {
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
+}
+
+/* Classes e Ids */
+.meu-paragrafo {
+    background-color: rgb(133, 208, 226);
+    color: rgb(32, 32, 31);
+}
+
+#titulo-principal {
+    background-color: rgb(233, 233, 134);
+    color: black;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Box model*/
+.box-model {
+    width: 200px;
+    height: 100px;
+    border: 1px solid blue;
+    padding: 20px;
+    margin: 20px;
+}
+/* Links */
+.decoration {
+    text-decoration: none;
+}
+
+.visitado:visited {
+    color: orange;
+}
+.estilo-hover:hover {
+    background-color: #1292ae;
+}
+
+/* Links em Button */
+.btn {
+    background-color: #34AE43;
+    border: 3px solid #234966;
+    border-radius: 8px;
+    color: #FFF;
+    text-decoration: none;
+    display: block; 
+    width: 200px;
+    padding: 12px 6px;
+    text-align: center;
+    margin: 20px;
+}
+.btn:hover {
+    background-color: #234966;
+    transition: 0.5s;
+}
+.sem-estilo {
+    list-style: none;
+}
+/* Display */
+.inline {
+    width: 60px;
+    height: 60px;
+    background-color: teal;
+    margin: 5px;
+    display: inline-block;
+}
+.bloco {
+    display: block;
+}
+.hidden {
+    display: none;
+}
+
+/* Position Fixo */
+.elem-fixo {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    background-color: #1292ae;
+    border-bottom: 2px solid #342299;
+    color: #FFF;
+}
+
+/* Pseudo Seletor / Pseudo class */
+.primeiro-elemento p:first-child {
+    color: purple;
+    font-weight: bold;
+}
+
+/* Pseudo Elemento */
+.primeira-letra::first-letter {
+    font-size: 40px;
+    color: blue;
+    background-color: coral;
+    padding: 4px;
+}
+
+/* Especifidade */
+h2 {
+    color: crimson;
+}
+
+.titulo {
+    color: darkgreen;
+}
+
+#meu-titulo-preferido {
+    color: blue;
+}
+/* IMPORTANT */
+h2 {
+    color:purple !important ;
+}
