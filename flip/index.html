@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+
+    <div class="flip" id="card">
+        <div class="face" id="front">
+            FRONT
+        </div>    
+        <div class="face" id="back">
+           BACK
+            </div>
+        </div>
+
+        <script>
+            const card = document.querySelector("#card")
+            card.addEventListener("click",()=>{
+               card.classList.toggle("flip")
+            })
+        </script>
+        
+</body>
+</html>
