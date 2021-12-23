@@ -18,7 +18,10 @@ body {
 
 main.cards {
     display: flex;   
-    padding: 32px;    
+    padding: 32px; 
+    
+    animation: bounceInDown; 
+    animation-duration: 1.5s;
 }
 main.cards section.card {
     display: flex;
