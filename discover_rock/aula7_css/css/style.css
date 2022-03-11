@@ -1,0 +1,16 @@
+  
+h1 {
+    font-family: 'Montserrat';
+    border: 1px solid red;
+  
+}
+
+.box {
+    height: 300px;
+    width: 400px;
+    margin: 10px;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+
+}    
