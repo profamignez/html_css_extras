@@ -1,4 +1,8 @@
-  
+body {
+    height: 100vh;
+    margin: 0px;
+}  
+
 h1 {
     font-family: 'Montserrat';
     border: 1px solid red;
@@ -6,11 +10,15 @@ h1 {
 }
 
 .box {
-    height: 300px;
-    width: 400px;
+    height: calc(100% - 40px);
+    width: 100%;
     margin: 10px;
     background-image: url(http://source.unsplash.com/random);
     background-repeat: no-repeat;
     background-position: bottom right;
+} 
 
-}    
+.box::after {
+    content: "Aqui vem alguma mensagem";
+    color: white;
+}
