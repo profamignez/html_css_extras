@@ -1,0 +1,49 @@
+* {
+    margin: 0;   
+}
+
+div {
+     color: #00f8;
+ }
+
+ h1 {
+     color:rgb(255, 50, 0);
+}
+
+   /*  header {
+    height: 100px;
+    border: 7px dashed red;
+    padding: 10px;
+   }
+  */
+ 
+main {
+    height: 200px;
+    color: white;
+    background-color: aqua;
+    background-image: url(http://source.unsplash.com/random);
+    background-repeat: no-repeat ;
+    background-position: left top;
+    background-size: cover; /* contain cover 100%  em px */
+    background-origin: padding-box;
+    /* content-box (padrão) border-box  padding-box */
+    background-clip:padding-box;
+   /* background-attachment: fixed;*/
+    /* scroll (padrão) */ 
+    background: linear-gradient(45deg,blue, yellow);
+}
+
+/*Múltiplos background */
+section {
+    margin: 10px;
+    height: 200px;
+    color: blue;
+    font-weight: 700;
+    background: linear-gradient(40deg, green, pink),rgb(61, 139, 107);
+}
+
+footer {
+    margin: 4px;
+    border: red 1px solid;
+    background: linear-gradient(blue, gray, rgb(61, 139, 107));
+}
