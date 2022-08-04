@@ -8,23 +8,34 @@
   <title>Menu Dropdown - teste</title>
 </head>
 <body>
-  <nav class="dp-menu">
-    <a class="navbar-brand" href="#"><img src="img/perfil_150x150.png" alt="Perfil" style="width: 80px;
-      "></a>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Produtos</a>
-      <ul>
-        <li><a href="#">Jogos</a></li>
-        <li><a href="#">Filmes</a></li>
-        <li><a href="#">Notícias</a></li>
-      </ul>
-    
-      </li>
-      <li><a href="#">Contatos</a></li>
-      <li><a href="#">Quem Somos</a></li>
-    </ul>
-  </nav>
+  <header>
+    <!-- Container -->   
+    <nav class="dp-menu">
+      <div class="container-fluid">
+        <img src="img/perfil_150x150.png" alt="Perfil" style="width: 80px;
+          "></a>
+        <!-- Nav Sandwich -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuCursos" style="cursor:pointer" aria-expanded="true">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="dp-menu">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Produtos</a>
+            <ul>
+              <li><a href="#">Jogos</a></li>
+              <li><a href="#">Filmes</a></li>
+              <li><a href="#">Notícias</a></li>
+            </ul>
+            </li>
+            <li><a href="#">Contatos</a></li>
+            <li><a href="#">Quem Somos</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
   
 </body>
 </html>

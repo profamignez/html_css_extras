@@ -4,6 +4,11 @@
 --cor-primaria: rgb(231, 241, 236);
 }
 
+nav a {
+  color: black;
+  font-size: 1.2rem; 
+  font-weight: bolder;
+}
 .dp-menu ul {
   list-style-type: none;
   padding: 0;

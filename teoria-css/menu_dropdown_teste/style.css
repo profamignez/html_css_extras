@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 :root {
 --cor-fundo: rgb(34, 41, 37);
 --cor-hover: rgb(118, 180, 145);
---cor-primaria: rgb(231, 241, 236);
+--cor-primaria: rgb(5, 17, 11);
 }
 
 .dp-menu ul {
@@ -10,8 +15,7 @@
 }
 
 .dp-menu ul {
-  background: linear-gradient(60deg,#25C0DB,#2602db);
-  
+  background-color: linear-gradient(60deg,#25C0DB,#2602db);
 }
 
 .dp-menu ul li {
@@ -20,6 +24,8 @@
 }
 
 .dp-menu ul li a {
+ 
+  font-weight: bolder;
   color: var(--cor-primaria);
   text-decoration: none;
   display: inline-block;
